@@ -1,0 +1,151 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F08080; /* Soft peach background for the entire page */
+   
+    
+}
+
+.image {margin-left: 600px;
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b6465f; /* pinkish  container background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color:#A4133C; /* Warm red for header background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lyrics {
+    background-color: #FFB3C1; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #333;
+    
+}
+
+.lyrics p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 0 15px;
+}
+
+/* Emphasize specific lines in the lyrics */
+.lyrics p:nth-child(1),
+.lyrics p:nth-child(3) {
+    font-style:times;
+    color: #004E89; /* col blue tone*/
+font-family:monospace;
+}
+
+.lyrics p:nth-child(2),
+.lyrics p:nth-child(5) {
+    font-style: italic;
+    color: #EC4067; 
+    font-family:'Lobster', cursive;
+}
+
+.lyrics p:nth-child(4),
+.lyrics p:nth-child(6) {
+    font-weight: bold;
+    color: #ff6f61; 
+    font-family:cursive;
+}
+.lyrics p:nth-child(8),
+.lyrics p:nth-child(10) {
+    font-weight: bold;
+    color: #ff6f61; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.lyrics p:nth-child(7),
+.lyrics p:nth-child(11) {
+    font-weight: bold;
+    color: #A93F55; 
+    font-family: 'Lobster', cursive;
+}
+    .lyrics p:nth-child(9),
+.lyrics p:nth-child(12) {
+    font-weight: bold;
+    color: #800016;
+    font-family:'Lobster', cursive;
+    font-size:29px;
+ } 
+
+ .lyrics p:nth-child(13),
+.lyrics p:nth-child(15) {
+    font-weight: bold;
+    color: #FF477E;
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+ }
+
+ .lyrics p:nth-child(14),
+ .lyrics p:nth-child(16) {
+     font-weight: bold;
+     color: #d42352;
+     font-family:'Courier New', Courier, monospace;
+     font-size:29px;
+  }
+  .lyrics p:nth-child(17),
+  .lyrics p:nth-child(19) {
+      font-weight: bold;
+      color: #34b5c6;
+      font-family:'Lobster', cursive;
+      
+   }
+   .lyrics p:nth-child(18),
+   .lyrics p:nth-child(20) {
+       font-weight: bold;
+       color: #ae4d34;
+       font-family:monospace;
+       font-size:23px;
+    }
+
+    .lyrics p:nth-child(21),
+    .lyrics p:nth-child(23) {
+        font-weight: bold;
+        color: #ed1919;
+        font-family: cursive;
+        font-size:29px;
+     }
+     .lyrics p:nth-child(22),
+     .lyrics p:nth-child(24) {
+         font-weight: bold;
+         color: #cc3d55;
+         font-family:monospace;
+         font-size:29px;
+      }
+      
+      .lyrics p:nth-child(25) {
+          font-weight: bold;
+          color: #d62839;
+          font-family:'Lobster', cursive;
+          font-size:29px;
+       }
+       .lyrics p:nth-child(26){
+        font-weight:bold;
+        color:#f73105;
+        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:30px;  
+    }
+/* Styling for responsive design */
+@media (max-width: 768px) {
+    .lyrics p {
+        font-size: 18px;
+    }
+}
